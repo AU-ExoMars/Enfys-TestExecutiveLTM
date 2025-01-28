@@ -24,6 +24,11 @@
 			<Item Name="Board PSU.ico" Type="Document" URL="../../../../../OneDrive - Aberystwyth University/Documents/LabVIEW Data/TestExecutive/Icons/Board PSU.ico"/>
 		</Item>
 		<Item Name="Servers" Type="Folder">
+			<Item Name="Icons" Type="Folder">
+				<Item Name="Board PSU.ico" Type="Document" URL="../Icons/Board PSU.ico"/>
+				<Item Name="Heater PSU.ico" Type="Document" URL="../Icons/Heater PSU.ico"/>
+				<Item Name="UpTemp.ico" Type="Document" URL="../Icons/UpTemp.ico"/>
+			</Item>
 			<Item Name="Board PSU server.vi" Type="VI" URL="../Servers/Board PSU server.vi"/>
 			<Item Name="Heater PSU server.vi" Type="VI" URL="../Servers/Heater PSU server.vi"/>
 			<Item Name="UpTempServer.vi" Type="VI" URL="../Servers/UpTempServer.vi"/>
@@ -56,6 +61,7 @@
 				<Item Name="CPX200DP.lvlib" Type="Library" URL="/&lt;instrlib&gt;/CPX200DP/CPX200DP.lvlib"/>
 				<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/CPX200DP/Public/Configure/Configure Voltage.vi"/>
 				<Item Name="TTI CPX400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/TTI CPX400/TTI CPX400.lvlib"/>
+				<Item Name="Configure OCP.vi" Type="VI" URL="/&lt;instrlib&gt;/TTI CPX400/Public/Configure/Configure OCP.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
@@ -172,19 +178,6 @@
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
-				<Item Name="WDT Index Channel I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel I64.vi"/>
-				<Item Name="WDT Index Channel by Name I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel by Name I64.vi"/>
-				<Item Name="WDT Index Channel by Name DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel by Name DBL.vi"/>
-				<Item Name="WDT Index Channel DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel DBL.vi"/>
-				<Item Name="WDT Index Channel I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel I32.vi"/>
-				<Item Name="WDT Index Channel I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel I16.vi"/>
-				<Item Name="WDT Index Channel by Name I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel by Name I32.vi"/>
-				<Item Name="WDT Index Channel by Name I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel by Name I16.vi"/>
-				<Item Name="DWDT Index Channel by Name.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Index Channel by Name.vi"/>
-				<Item Name="DWDT Index Channel.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Index Channel.vi"/>
-				<Item Name="WDT Index Channel CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel CDB.vi"/>
-				<Item Name="WDT Index Channel by Name CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Index Channel by Name CDB.vi"/>
-				<Item Name="Index Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Index Waveform Array.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="TLUP_64.dll" Type="Document" URL="TLUP_64.dll">
@@ -210,22 +203,23 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/TestExecutive/HeaterServer App</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../HeaterServer App</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05F28D40-5053-4627-8BBD-B68E0416A02C}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HeaterServer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/TestExecutive/HeaterServer App/HeaterServer.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../HeaterServer App/HeaterServer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/TestExecutive/HeaterServer App/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../HeaterServer App/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/Heater PSU.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC0FE72F-C954-4490-BC23-AD80D38DF0D5}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Servers/Icons/Heater PSU.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1293DB6C-54D6-49B6-B89D-EB6B6C678DB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Servers/Heater PSU server.vi</Property>
@@ -256,7 +250,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0601AEF9-441F-4AAA-A693-487F0A438975}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UpTempServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/UpTempServer App/UpTempServer.exe</Property>
@@ -265,8 +259,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/UpTempServer App/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/UpTemp.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{66550B90-6EDD-4555-A5DC-C4D4AE5DA830}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Servers/Icons/UpTemp.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1293DB6C-54D6-49B6-B89D-EB6B6C678DB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Servers/UpTempServer.vi</Property>
@@ -293,22 +287,23 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/TestExecutive/BoardServer App</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../BoardServer App</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5D8F5A72-1AAC-42BA-AF3D-300D2C31CD3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Board Server.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/TestExecutive/BoardServer App/Board Server.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../BoardServer App/Board Server.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/TestExecutive/BoardServer App/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../BoardServer App/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/Board PSU.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{22A54B7F-3DB7-4C87-B7C0-D26801D119F8}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Servers/Icons/Board PSU.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1293DB6C-54D6-49B6-B89D-EB6B6C678DB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Servers/Board PSU server.vi</Property>
