@@ -44,6 +44,9 @@
 			<Item Name="StartVideoCapture.vi" Type="VI" URL="../subVIs/StartVideoCapture.vi"/>
 			<Item Name="Make Status Message.vi" Type="VI" URL="../subVIs/Make Status Message.vi"/>
 			<Item Name="MakeTopFolder.vi" Type="VI" URL="../subVIs/MakeTopFolder.vi"/>
+			<Item Name="Load TestDefinition from XML.vi" Type="VI" URL="../subVIs/Load TestDefinition from XML.vi"/>
+			<Item Name="Save TestDefinition to XML.vi" Type="VI" URL="../subVIs/Save TestDefinition to XML.vi"/>
+			<Item Name="Get TestDefinition File Path.vi" Type="VI" URL="../subVIs/Get TestDefinition File Path.vi"/>
 		</Item>
 		<Item Name="Development Testing" Type="Folder">
 			<Item Name="Actuation_VideoTest.vi" Type="VI" URL="../Development Testing/Actuation_VideoTest.vi"/>
@@ -51,6 +54,7 @@
 			<Item Name="testVideoCapture.vi" Type="VI" URL="../Development Testing/testVideoCapture.vi"/>
 		</Item>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
+		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="TLUP Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLUP/TLUP.llb/TLUP Close.vi"/>
@@ -179,6 +183,23 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 			</Item>
 			<Item Name="TLUP_64.dll" Type="Document" URL="TLUP_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -189,6 +210,7 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Get Configuration File Path.vi" Type="VI" URL="../../ThermalVac/subVIs/Get Configuration File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Heater Server App" Type="EXE">
@@ -206,7 +228,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05F28D40-5053-4627-8BBD-B68E0416A02C}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HeaterServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/HeaterServer.exe</Property>
@@ -248,7 +270,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0601AEF9-441F-4AAA-A693-487F0A438975}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UpTempServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/UpTempServer.exe</Property>
@@ -290,7 +312,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5D8F5A72-1AAC-42BA-AF3D-300D2C31CD3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Board Server.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/Board Server.exe</Property>
@@ -332,7 +354,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ADD6D2BD-B736-441A-95A5-58E9A49F3D83}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestExecutive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/TestExecutive.exe</Property>
@@ -340,16 +362,19 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{102C823B-4C6D-4CCD-B430-F4DA18138A04}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5BB9C3B5-A051-4CB8-9EF7-483672FD9BC3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestExecutive.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestDefinitions.xml</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TestExecutive App</Property>
 				<Property Name="TgtF_internalName" Type="Str">TestExecutive App</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
