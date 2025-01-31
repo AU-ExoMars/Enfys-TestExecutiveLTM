@@ -16,6 +16,7 @@
 		<Item Name="controls" Type="Folder">
 			<Item Name="TestExecStates.ctl" Type="VI" URL="../controls/TestExecStates.ctl"/>
 			<Item Name="TestType.ctl" Type="VI" URL="../controls/TestType.ctl"/>
+			<Item Name="TestDefinition.ctl" Type="VI" URL="../controls/TestDefinition.ctl"/>
 			<Item Name="FFMpegRef.ctl" Type="VI" URL="../controls/FFMpegRef.ctl"/>
 		</Item>
 		<Item Name="Icons" Type="Folder">
@@ -43,9 +44,6 @@
 			<Item Name="StartVideoCapture.vi" Type="VI" URL="../subVIs/StartVideoCapture.vi"/>
 			<Item Name="Make Status Message.vi" Type="VI" URL="../subVIs/Make Status Message.vi"/>
 			<Item Name="MakeTopFolder.vi" Type="VI" URL="../subVIs/MakeTopFolder.vi"/>
-			<Item Name="Get TestDefinition File Path.vi" Type="VI" URL="../subVIs/Get TestDefinition File Path.vi"/>
-			<Item Name="Load TestDefinition from XML.vi" Type="VI" URL="../subVIs/Load TestDefinition from XML.vi"/>
-			<Item Name="Save TestDefinition to XML.vi" Type="VI" URL="../subVIs/Save TestDefinition to XML.vi"/>
 		</Item>
 		<Item Name="Development Testing" Type="Folder">
 			<Item Name="Actuation_VideoTest.vi" Type="VI" URL="../Development Testing/Actuation_VideoTest.vi"/>
@@ -53,8 +51,6 @@
 			<Item Name="testVideoCapture.vi" Type="VI" URL="../Development Testing/testVideoCapture.vi"/>
 		</Item>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
-		<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/CPX200DP/Public/Configure/Configure Voltage.vi"/>
-		<Item Name="TestDefinition.ctl" Type="VI" URL="../controls/TestDefinition.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="TLUP Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLUP/TLUP.llb/TLUP Close.vi"/>
@@ -65,11 +61,7 @@
 				<Item Name="TLUP VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLUP/TLUP.llb/TLUP VXIpnp Error Converter.vi"/>
 				<Item Name="CPX200DP.lvlib" Type="Library" URL="/&lt;instrlib&gt;/CPX200DP/CPX200DP.lvlib"/>
 				<Item Name="TTI CPX400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/TTI CPX400/TTI CPX400.lvlib"/>
-<<<<<<< HEAD
-=======
-				<Item Name="Configure OCP.vi" Type="VI" URL="/&lt;instrlib&gt;/TTI CPX400/Public/Configure/Configure OCP.vi"/>
-				<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/TTi CPX200/Public/Configure/Configure Voltage.vi"/>
->>>>>>> 058363068ba7d417260438d363e8d859bd37baa0
+				<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/CPX200DP/Public/Configure/Configure Voltage.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
@@ -187,23 +179,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
-				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
-				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
-				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
-				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
-				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
-				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
-				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
-				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
-				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
-				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
-				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 			</Item>
 			<Item Name="TLUP_64.dll" Type="Document" URL="TLUP_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -214,7 +189,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Configuration File Path.vi" Type="VI" URL="../../ThermalVac/subVIs/Get Configuration File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Heater Server App" Type="EXE">
