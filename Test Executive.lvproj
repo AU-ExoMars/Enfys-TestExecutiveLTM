@@ -50,6 +50,7 @@
 			<Item Name="testVideoCapture.vi" Type="VI" URL="../Development Testing/testVideoCapture.vi"/>
 		</Item>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
+		<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/TTi CPX200/Public/Configure/Configure Voltage.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="TLUP Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLUP/TLUP.llb/TLUP Close.vi"/>
@@ -59,9 +60,7 @@
 				<Item Name="TLUP Measure TEMP Temperatures All.vi" Type="VI" URL="/&lt;instrlib&gt;/TLUP/TLUP.llb/TLUP Measure TEMP Temperatures All.vi"/>
 				<Item Name="TLUP VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLUP/TLUP.llb/TLUP VXIpnp Error Converter.vi"/>
 				<Item Name="CPX200DP.lvlib" Type="Library" URL="/&lt;instrlib&gt;/CPX200DP/CPX200DP.lvlib"/>
-				<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/CPX200DP/Public/Configure/Configure Voltage.vi"/>
 				<Item Name="TTI CPX400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/TTI CPX400/TTI CPX400.lvlib"/>
-				<Item Name="Configure OCP.vi" Type="VI" URL="/&lt;instrlib&gt;/TTI CPX400/Public/Configure/Configure OCP.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
