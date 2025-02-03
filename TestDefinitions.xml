@@ -1,0 +1,347 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>24.3f0</Version>
+<Cluster>
+<Name>TestDefinition</Name>
+<NumElts>9</NumElts>
+<Array>
+<Name>Tests</Name>
+<Dimsize>12</Dimsize>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-136.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>1</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-80.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-50.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>30.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-40.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-30.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-20.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>30.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>40.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Val>2</Val>
+</EW>
+</Cluster>
+</Array>
+<DBL>
+<Name>Heater Pre-Log (s)</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Heater Post-Log(s)</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Heater Test (s)</Name>
+<Val>30.00000000000000</Val>
+</DBL>
+<I32>
+<Name>ActuationsPerLoop</Name>
+<Val>2</Val>
+</I32>
+<DBL>
+<Name>Actuation Pre-Log (s)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Actuation
+ Post-Log(s)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<I64>
+<Name>Temperature
+Log Period(ms)</Name>
+<Val>1000</Val>
+</I64>
+<I64>
+<Name>PSU 
+Log Period (ms)</Name>
+<Val>100</Val>
+</I64>
+</Cluster>
+</LVData>
