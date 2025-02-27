@@ -1,21 +1,13 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "211,565,929,1523"
+ProjectExplorer.ClassicPosition[String] = "88,232,1000,1167"
 
-[AB_Cache_{5F64095F-0BA5-4D1E-A9F5-266511965979}]
-Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{5F64095F"
-Cache_Path[Path] Line0002 = "-0BA5-4D1E-A9F5-266511965979}.txt"
+[AB_Cache_{E0D56E18-950F-451C-BA9A-BBD6FE2670C4}]
+Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{E0D56E18"
+Cache_Path[Path] Line0002 = "-950F-451C-BA9A-BBD6FE2670C4}.txt"
 
-[AB_Cache_{ADD6D2BD-B736-441A-95A5-58E9A49F3D83}]
-Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{ADD6D2BD"
-Cache_Path[Path] Line0002 = "-B736-441A-95A5-58E9A49F3D83}.txt"
-
-[AB_Cache_{B9F76C55-44AF-426D-98F6-AC0A795035B0}]
-Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{B9F76C55"
-Cache_Path[Path] Line0002 = "-44AF-426D-98F6-AC0A795035B0}.txt"
-
-[AB_Cache_{5D8F5A72-1AAC-42BA-AF3D-300D2C31CD3E}]
-Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{5D8F5A72"
-Cache_Path[Path] Line0002 = "-1AAC-42BA-AF3D-300D2C31CD3E}.txt"
+[AB_Cache_{05F28D40-5053-4627-8BBD-B68E0416A02C}]
+Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{05F28D40"
+Cache_Path[Path] Line0002 = "-5053-4627-8BBD-B68E0416A02C}.txt"
 
 [AB_Cache_{362856BD-9395-4E64-B964-0C7211AC9C1D}]
 Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{362856BD"
@@ -25,10 +17,18 @@ Cache_Path[Path] Line0002 = "-9395-4E64-B964-0C7211AC9C1D}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{0601AEF9"
 Cache_Path[Path] Line0002 = "-441F-4AAA-A693-487F0A438975}.txt"
 
-[AB_Cache_{E0D56E18-950F-451C-BA9A-BBD6FE2670C4}]
-Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{E0D56E18"
-Cache_Path[Path] Line0002 = "-950F-451C-BA9A-BBD6FE2670C4}.txt"
+[AB_Cache_{B9F76C55-44AF-426D-98F6-AC0A795035B0}]
+Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{B9F76C55"
+Cache_Path[Path] Line0002 = "-44AF-426D-98F6-AC0A795035B0}.txt"
 
-[AB_Cache_{05F28D40-5053-4627-8BBD-B68E0416A02C}]
-Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{05F28D40"
-Cache_Path[Path] Line0002 = "-5053-4627-8BBD-B68E0416A02C}.txt"
+[AB_Cache_{5D8F5A72-1AAC-42BA-AF3D-300D2C31CD3E}]
+Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{5D8F5A72"
+Cache_Path[Path] Line0002 = "-1AAC-42BA-AF3D-300D2C31CD3E}.txt"
+
+[AB_Cache_{5F64095F-0BA5-4D1E-A9F5-266511965979}]
+Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{5F64095F"
+Cache_Path[Path] Line0002 = "-0BA5-4D1E-A9F5-266511965979}.txt"
+
+[AB_Cache_{ADD6D2BD-B736-441A-95A5-58E9A49F3D83}]
+Cache_Path[Path] Line0001 = "/C/Users/dpl/AppData/Local/Temp/AB_Cache_{ADD6D2BD"
+Cache_Path[Path] Line0002 = "-B736-441A-95A5-58E9A49F3D83}.txt"
