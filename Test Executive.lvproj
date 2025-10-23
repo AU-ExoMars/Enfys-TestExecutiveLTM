@@ -162,7 +162,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AF8844FE-90CC-4060-A596-38996D100548}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestExecutive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/TestExecutive.exe</Property>
@@ -173,7 +173,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3DB17AC7-6374-4EEF-962D-933311F63D09}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{470A4D8E-F72E-4FF1-A57B-34A6FD0E11A0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestExecutive.vi</Property>
