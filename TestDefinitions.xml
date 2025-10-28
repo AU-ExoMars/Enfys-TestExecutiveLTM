@@ -12,7 +12,7 @@
 <NumElts>7</NumElts>
 <DBL>
 <Name>TTrigger</Name>
-<Val>-130.00000000000000</Val>
+<Val>-129.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Direction</Name>
@@ -29,6 +29,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>0</Val>
 </EW>
 <DBL>
@@ -66,7 +67,8 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
-<Val>1</Val>
+<Choice>Peltier Test</Choice>
+<Val>3</Val>
 </EW>
 <DBL>
 <Name>Heater Test (s)</Name>
@@ -103,6 +105,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>0</Val>
 </EW>
 <DBL>
@@ -140,6 +143,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>1</Val>
 </EW>
 <DBL>
@@ -177,6 +181,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -214,6 +219,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -226,7 +232,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -251,6 +257,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -263,7 +270,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -288,6 +295,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -300,7 +308,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -325,6 +333,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -337,7 +346,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -362,6 +371,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -374,7 +384,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -399,6 +409,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -411,7 +422,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -436,6 +447,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>2</Val>
 </EW>
 <DBL>
@@ -448,44 +460,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>TestTrigger</Name>
-<NumElts>7</NumElts>
-<DBL>
-<Name>TTrigger</Name>
-<Val>40.00000000000000</Val>
-</DBL>
-<EW>
-<Name>Direction</Name>
-<Choice>Rising</Choice>
-<Choice>Falling</Choice>
-<Val>0</Val>
-</EW>
-<DBL>
-<Name>TDelay</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<EW>
-<Name>Type</Name>
-<Choice>No Test</Choice>
-<Choice>Heater Test</Choice>
-<Choice>Actuation Test</Choice>
-<Val>2</Val>
-</EW>
-<DBL>
-<Name>Heater Test (s)</Name>
-<Val>30.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Pre-Log (s)</Name>
-<Val>10.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -503,6 +478,44 @@
 </EW>
 <DBL>
 <Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
+<Val>2</Val>
+</EW>
+<DBL>
+<Name>Heater Test (s)</Name>
+<Val>30.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Pre-Log (s)</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Post-Log(s)</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>TestTrigger</Name>
+<NumElts>7</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>40.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
 <Val>30.00000000000000</Val>
 </DBL>
 <EW>
@@ -510,6 +523,7 @@
 <Choice>No Test</Choice>
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
+<Choice>Peltier Test</Choice>
 <Val>0</Val>
 </EW>
 <DBL>
@@ -522,7 +536,7 @@
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
