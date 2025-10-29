@@ -15,6 +15,8 @@
 		<Item Name="controls" Type="Folder">
 			<Item Name="FFMpegRef.ctl" Type="VI" URL="../controls/FFMpegRef.ctl"/>
 			<Item Name="KeyTempDefinition.ctl" Type="VI" URL="../controls/KeyTempDefinition.ctl"/>
+			<Item Name="TED4015 Connection.ctl" Type="VI" URL="../Servers/TED4015 Connection.ctl"/>
+			<Item Name="TED4015 Status.ctl" Type="VI" URL="../Servers/TED4015 Status.ctl"/>
 			<Item Name="TempFeature.ctl" Type="VI" URL="../controls/TempFeature.ctl"/>
 			<Item Name="TestDefinition.ctl" Type="VI" URL="../controls/TestDefinition.ctl"/>
 			<Item Name="TestExecStates.ctl" Type="VI" URL="../controls/TestExecStates.ctl"/>
@@ -39,15 +41,21 @@
 		</Item>
 		<Item Name="Servers" Type="Folder">
 			<Item Name="Board PSU server.vi" Type="VI" URL="../Servers/Board PSU server.vi"/>
+			<Item Name="Diode Server.vi" Type="VI" URL="../Servers/Diode Server.vi"/>
+			<Item Name="Dummy TVC.vi" Type="VI" URL="../Servers/Dummy TVC.vi"/>
+			<Item Name="get TED_Status.vi" Type="VI" URL="../Servers/get TED_Status.vi"/>
 			<Item Name="Heater PSU server.vi" Type="VI" URL="../Servers/Heater PSU server.vi"/>
+			<Item Name="TEC Server.vi" Type="VI" URL="../Servers/TEC Server.vi"/>
 			<Item Name="UpTempServer.vi" Type="VI" URL="../Servers/UpTempServer.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="ActuationTest.vi" Type="VI" URL="../subVIs/ActuationTest.vi"/>
+			<Item Name="ConvertTEDtoWFM.vi" Type="VI" URL="../Servers/ConvertTEDtoWFM.vi"/>
 			<Item Name="DecodeTimeStamp.vi" Type="VI" URL="../subVIs/DecodeTimeStamp.vi"/>
 			<Item Name="DelayTimer.vi" Type="VI" URL="../subVIs/DelayTimer.vi"/>
 			<Item Name="Directory Structure Example.vi" Type="VI" URL="../subVIs/Directory Structure Example.vi"/>
 			<Item Name="FindVideoDevices.vi" Type="VI" URL="../subVIs/FindVideoDevices.vi"/>
+			<Item Name="Get Configuration File Path.vi" Type="VI" URL="../subVIs/Get Configuration File Path.vi"/>
 			<Item Name="Get TestDefinition File Path.vi" Type="VI" URL="../subVIs/Get TestDefinition File Path.vi"/>
 			<Item Name="HeaterTest.vi" Type="VI" URL="../subVIs/HeaterTest.vi"/>
 			<Item Name="Load TestDefinition from XML.vi" Type="VI" URL="../subVIs/Load TestDefinition from XML.vi"/>
@@ -62,6 +70,7 @@
 			<Item Name="VideoCapture.vi" Type="VI" URL="../subVIs/VideoCapture.vi"/>
 		</Item>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
+		<Item Name="TestExecutive V2.vi" Type="VI" URL="../TestExecutive V2.vi"/>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
