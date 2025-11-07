@@ -80,6 +80,7 @@
 			<Item Name="Stop FFMpeg Process.vi" Type="VI" URL="../subVIs/Stop FFMpeg Process.vi"/>
 			<Item Name="VideoCapture.vi" Type="VI" URL="../subVIs/VideoCapture.vi"/>
 		</Item>
+		<Item Name="ErrorMessage.vi" Type="VI" URL="../subVIs/ErrorMessage.vi"/>
 		<Item Name="HTR_Check.vi" Type="VI" URL="../subVIs/HTR_Check.vi"/>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="TestExecutive V2.vi" Type="VI" URL="../TestExecutive V2.vi"/>
