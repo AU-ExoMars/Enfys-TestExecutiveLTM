@@ -64,10 +64,12 @@
 			<Item Name="Diode_Check.vi" Type="VI" URL="../subVIs/Diode_Check.vi"/>
 			<Item Name="DiodeTest.vi" Type="VI" URL="../subVIs/DiodeTest.vi"/>
 			<Item Name="Directory Structure Example.vi" Type="VI" URL="../subVIs/Directory Structure Example.vi"/>
+			<Item Name="ErrorMessage.vi" Type="VI" URL="../subVIs/ErrorMessage.vi"/>
 			<Item Name="FindVideoDevices.vi" Type="VI" URL="../subVIs/FindVideoDevices.vi"/>
 			<Item Name="Get Configuration File Path.vi" Type="VI" URL="../subVIs/Get Configuration File Path.vi"/>
 			<Item Name="Get TestDefinition File Path.vi" Type="VI" URL="../subVIs/Get TestDefinition File Path.vi"/>
 			<Item Name="HeaterTest.vi" Type="VI" URL="../subVIs/HeaterTest.vi"/>
+			<Item Name="HTR_Check.vi" Type="VI" URL="../subVIs/HTR_Check.vi"/>
 			<Item Name="HTR_Test.vi" Type="VI" URL="../subVIs/HTR_Test.vi"/>
 			<Item Name="Load TestDefinition from XML.vi" Type="VI" URL="../subVIs/Load TestDefinition from XML.vi"/>
 			<Item Name="Make Status Message.vi" Type="VI" URL="../subVIs/Make Status Message.vi"/>
@@ -80,8 +82,6 @@
 			<Item Name="Stop FFMpeg Process.vi" Type="VI" URL="../subVIs/Stop FFMpeg Process.vi"/>
 			<Item Name="VideoCapture.vi" Type="VI" URL="../subVIs/VideoCapture.vi"/>
 		</Item>
-		<Item Name="ErrorMessage.vi" Type="VI" URL="../subVIs/ErrorMessage.vi"/>
-		<Item Name="HTR_Check.vi" Type="VI" URL="../subVIs/HTR_Check.vi"/>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="TestExecutive V2.vi" Type="VI" URL="../TestExecutive V2.vi"/>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
