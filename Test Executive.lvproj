@@ -143,7 +143,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1C5A237-E403-4802-969C-87EC6F6E4B4A}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DiodeServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/DiodeServer.exe</Property>
@@ -228,7 +228,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5461333F-CA44-4FE3-BBC4-206EEC5A5371}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Quad PSU Server.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/Quad PSU Server.exe</Property>
@@ -272,7 +272,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2ABDE3CE-7FDC-4FA6-904F-C6253C41DDB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TECServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/TECServer.exe</Property>
@@ -302,50 +302,6 @@
 				<Property Name="TgtF_productName" Type="Str">HeaterServer</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{94E38715-CC65-4172-946D-F0E1B52CA80F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TECServer.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="TestExecutive" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{6D65E0DD-A14A-4176-B135-344CD4B8A150}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{187A481E-E821-4161-88E3-52E2C4B52DE3}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{3EC59DEA-E103-4F22-AB46-EC7B27D3C2CB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TestExecutive</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{AF8844FE-90CC-4060-A596-38996D100548}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">TestExecutive.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/TestExecutive.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23F1D9CB-9F30-40D1-9CCA-BFD5F1078A91}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestExecutive.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestExecutive V2.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TestExecutive</Property>
-				<Property Name="TgtF_internalName" Type="Str">TestExecutive</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
-				<Property Name="TgtF_productName" Type="Str">TestExecutive</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{49BF5831-6CC8-41FE-B166-418630F330A9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TestExecutive.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UpTempServer" Type="EXE">
