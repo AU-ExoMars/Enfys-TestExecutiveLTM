@@ -85,6 +85,8 @@
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="TestExecutive V2.vi" Type="VI" URL="../TestExecutive V2.vi"/>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
+		<Item Name="TimerTest.vi" Type="VI" URL="../subVIs/TimerTest.vi"/>
+		<Item Name="TimerTestHarness.vi" Type="VI" URL="../subVIs/TimerTestHarness.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Board Server" Type="EXE">
