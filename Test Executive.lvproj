@@ -83,8 +83,11 @@
 			<Item Name="VideoCapture.vi" Type="VI" URL="../subVIs/VideoCapture.vi"/>
 			<Item Name="WriteLogFile.vi" Type="VI" URL="../subVIs/WriteLogFile.vi"/>
 		</Item>
+		<Item Name="DiodeTestAndCheck.vi" Type="VI" URL="../subVIs/DiodeTestAndCheck.vi"/>
+		<Item Name="Globals.vi" Type="VI" URL="../subVIs/Globals.vi"/>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="TestExecutive V2.vi" Type="VI" URL="../TestExecutive V2.vi"/>
+		<Item Name="TestExecutive V3.vi" Type="VI" URL="../TestExecutive V3.vi"/>
 		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
 		<Item Name="TimerDummy.vi" Type="VI" URL="../subVIs/TimerDummy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
