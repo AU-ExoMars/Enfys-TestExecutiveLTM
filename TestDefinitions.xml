@@ -6,7 +6,7 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>Tests</Name>
-<Dimsize>4</Dimsize>
+<Dimsize>3</Dimsize>
 <Cluster>
 <Name>SingleTest</Name>
 <NumElts>7</NumElts>
@@ -68,7 +68,7 @@
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
 <Choice>Diode Test</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <DBL>
 <Name>Pre-Log (s)</Name>
@@ -76,7 +76,7 @@
 </DBL>
 <DBL>
 <Name>Duration (s)</Name>
-<Val>30.00000000000000</Val>
+<Val>40.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
@@ -106,7 +106,7 @@
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
 <Choice>Diode Test</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <DBL>
 <Name>Pre-Log (s)</Name>
@@ -114,45 +114,7 @@
 </DBL>
 <DBL>
 <Name>Duration (s)</Name>
-<Val>30.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Post-Log(s)</Name>
-<Val>10.00000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>SingleTest</Name>
-<NumElts>7</NumElts>
-<DBL>
-<Name>TTrigger</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<EW>
-<Name>Direction</Name>
-<Choice>Rising</Choice>
-<Choice>Falling</Choice>
-<Val>0</Val>
-</EW>
-<DBL>
-<Name>TDelay</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<EW>
-<Name>Type</Name>
-<Choice>No Test</Choice>
-<Choice>Heater Test</Choice>
-<Choice>Actuation Test</Choice>
-<Choice>Diode Test</Choice>
-<Val>3</Val>
-</EW>
-<DBL>
-<Name>Pre-Log (s)</Name>
-<Val>25.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Duration (s)</Name>
-<Val>30.00000000000000</Val>
+<Val>40.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
