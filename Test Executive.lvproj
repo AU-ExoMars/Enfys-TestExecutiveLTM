@@ -63,11 +63,13 @@
 			<Item Name="DelayTimer.vi" Type="VI" URL="../subVIs/DelayTimer.vi"/>
 			<Item Name="Diode_Check.vi" Type="VI" URL="../subVIs/Diode_Check.vi"/>
 			<Item Name="DiodeTest.vi" Type="VI" URL="../subVIs/DiodeTest.vi"/>
+			<Item Name="DiodeTestAndCheck.vi" Type="VI" URL="../subVIs/DiodeTestAndCheck.vi"/>
 			<Item Name="Directory Structure Example.vi" Type="VI" URL="../subVIs/Directory Structure Example.vi"/>
 			<Item Name="ErrorMessage.vi" Type="VI" URL="../subVIs/ErrorMessage.vi"/>
 			<Item Name="FindVideoDevices.vi" Type="VI" URL="../subVIs/FindVideoDevices.vi"/>
 			<Item Name="Get Configuration File Path.vi" Type="VI" URL="../subVIs/Get Configuration File Path.vi"/>
 			<Item Name="Get TestDefinition File Path.vi" Type="VI" URL="../subVIs/Get TestDefinition File Path.vi"/>
+			<Item Name="Globals.vi" Type="VI" URL="../subVIs/Globals.vi"/>
 			<Item Name="HeaterTest.vi" Type="VI" URL="../subVIs/HeaterTest.vi"/>
 			<Item Name="HTR_Check.vi" Type="VI" URL="../subVIs/HTR_Check.vi"/>
 			<Item Name="HTR_Test.vi" Type="VI" URL="../subVIs/HTR_Test.vi"/>
@@ -80,16 +82,12 @@
 			<Item Name="Start FFMpeg Process.vi" Type="VI" URL="../subVIs/Start FFMpeg Process.vi"/>
 			<Item Name="StartVideoCapture.vi" Type="VI" URL="../subVIs/StartVideoCapture.vi"/>
 			<Item Name="Stop FFMpeg Process.vi" Type="VI" URL="../subVIs/Stop FFMpeg Process.vi"/>
+			<Item Name="TimerDummy.vi" Type="VI" URL="../subVIs/TimerDummy.vi"/>
 			<Item Name="VideoCapture.vi" Type="VI" URL="../subVIs/VideoCapture.vi"/>
 			<Item Name="WriteLogFile.vi" Type="VI" URL="../subVIs/WriteLogFile.vi"/>
 		</Item>
-		<Item Name="DiodeTestAndCheck.vi" Type="VI" URL="../subVIs/DiodeTestAndCheck.vi"/>
-		<Item Name="Globals.vi" Type="VI" URL="../subVIs/Globals.vi"/>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
-		<Item Name="TestExecutive V2.vi" Type="VI" URL="../TestExecutive V2.vi"/>
 		<Item Name="TestExecutive V3.vi" Type="VI" URL="../TestExecutive V3.vi"/>
-		<Item Name="TestExecutive.vi" Type="VI" URL="../TestExecutive.vi"/>
-		<Item Name="TimerDummy.vi" Type="VI" URL="../subVIs/TimerDummy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Board Server" Type="EXE">
@@ -338,10 +336,10 @@
 				<Property Name="Source[0].itemID" Type="Str">{23F1D9CB-9F30-40D1-9CCA-BFD5F1078A91}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestExecutive.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestExecutive V2.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
