@@ -1,12 +1,12 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>25.1.3f3</Version>
+<Version>25.1.1f1</Version>
 <Cluster>
 <Name>TestDefinition</Name>
 <NumElts>6</NumElts>
 <Array>
 <Name>Test Sequence</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>3</Dimsize>
 <Cluster>
 <Name>SingleTest</Name>
 <NumElts>7</NumElts>
@@ -50,7 +50,7 @@
 <NumElts>7</NumElts>
 <DBL>
 <Name>TTrigger</Name>
-<Val>-80.00000000000000</Val>
+<Val>-50.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Direction</Name>
@@ -68,15 +68,53 @@
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
 <Choice>Diode Test</Choice>
-<Val>1</Val>
+<Val>3</Val>
 </EW>
 <DBL>
 <Name>Pre-Log (s)</Name>
-<Val>10.00000000000000</Val>
+<Val>25.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Duration (s)</Name>
-<Val>15.00000000000000</Val>
+<Val>40.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Post-Log(s)</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>SingleTest</Name>
+<NumElts>7</NumElts>
+<DBL>
+<Name>TTrigger</Name>
+<Val>-40.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Direction</Name>
+<Choice>Rising</Choice>
+<Choice>Falling</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>TDelay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Type</Name>
+<Choice>No Test</Choice>
+<Choice>Heater Test</Choice>
+<Choice>Actuation Test</Choice>
+<Choice>Diode Test</Choice>
+<Val>3</Val>
+</EW>
+<DBL>
+<Name>Pre-Log (s)</Name>
+<Val>25.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Duration (s)</Name>
+<Val>40.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Post-Log(s)</Name>
@@ -94,51 +132,59 @@
 </I64>
 <I64>
 <Name>PSU  Log Period (ms)</Name>
-<Val>100</Val>
+<Val>1000</Val>
 </I64>
 <Cluster>
 <Name>Diode Test Options</Name>
 <NumElts>5</NumElts>
 <DBL>
 <Name>Temp.Tol</Name>
-<Val>0.00000000000000</Val>
+<Val>0.50000000000000</Val>
 </DBL>
 <Array>
 <Name>Max IDark</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
 <DBL>
 <Name>Max Idark</Name>
-<Val></Val>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Max Idark</Name>
+<Val>1.00000000000000E-6</Val>
 </DBL>
 </Array>
 <Array>
 <Name>Min ILight</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
 <DBL>
 <Name>Min ILight</Name>
-<Val></Val>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min ILight</Name>
+<Val>2.00000000000000E-6</Val>
 </DBL>
 </Array>
 <DBL>
 <Name>Min TEC 
 Current</Name>
-<Val>0.00000000000000</Val>
+<Val>0.20000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max TEC 
 Current</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
 <Name>Heater Test Options</Name>
 <NumElts>2</NumElts>
 <DBL>
-<Name>Heater Nominal Current (A)</Name>
+<Name>Heater Nominal Voltage (V)</Name>
 <Val>0.67000000000000</Val>
 </DBL>
 <DBL>
-<Name>Heater Current Tolerance (%)</Name>
+<Name>Heater Voltage Tolerance (%)</Name>
 <Val>20.00000000000000</Val>
 </DBL>
 </Cluster>
