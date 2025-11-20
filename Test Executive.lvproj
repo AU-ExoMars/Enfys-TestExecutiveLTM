@@ -84,11 +84,11 @@
 			<Item Name="Stop FFMpeg Process.vi" Type="VI" URL="../subVIs/Stop FFMpeg Process.vi"/>
 			<Item Name="TimerDummy.vi" Type="VI" URL="../subVIs/TimerDummy.vi"/>
 			<Item Name="VideoCapture.vi" Type="VI" URL="../subVIs/VideoCapture.vi"/>
+			<Item Name="Write Diode Log.vi" Type="VI" URL="../subVIs/Write Diode Log.vi"/>
 			<Item Name="WriteLogFile.vi" Type="VI" URL="../subVIs/WriteLogFile.vi"/>
 		</Item>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="TestExecutive V3.vi" Type="VI" URL="../TestExecutive V3.vi"/>
-		<Item Name="Write Diode Log.vi" Type="VI" URL="../subVIs/Write Diode Log.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Board Server" Type="EXE">
