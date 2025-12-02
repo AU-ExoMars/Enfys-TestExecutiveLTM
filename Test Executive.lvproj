@@ -147,7 +147,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1C5A237-E403-4802-969C-87EC6F6E4B4A}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DiodeServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/DiodeServer.exe</Property>
@@ -232,7 +232,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5461333F-CA44-4FE3-BBC4-206EEC5A5371}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Quad PSU Server.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/Quad PSU Server.exe</Property>
@@ -276,7 +276,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2ABDE3CE-7FDC-4FA6-904F-C6253C41DDB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TECServer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/TECServer.exe</Property>
@@ -323,7 +323,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/StandAloneTestExec</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AF8844FE-90CC-4060-A596-38996D100548}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestExecutive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/StandAloneTestExec/TestExecutive.exe</Property>
