@@ -87,6 +87,7 @@
 			<Item Name="Write Diode Log.vi" Type="VI" URL="../subVIs/Write Diode Log.vi"/>
 			<Item Name="WriteLogFile.vi" Type="VI" URL="../subVIs/WriteLogFile.vi"/>
 		</Item>
+		<Item Name="MailMonitor.vi" Type="VI" URL="../MailMonitor.vi"/>
 		<Item Name="TestDefinitions.xml" Type="Document" URL="../TestDefinitions.xml"/>
 		<Item Name="TestExecutive V3.vi" Type="VI" URL="../TestExecutive V3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
