@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>25.1.3f3</Version>
+<Version>25.1.1f1</Version>
 <Cluster>
 <Name>TestDefinition</Name>
 <NumElts>6</NumElts>
@@ -106,7 +106,7 @@
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
 <Choice>Diode Test</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <DBL>
 <Name>Pre-Log (s)</Name>
@@ -126,7 +126,7 @@
 <NumElts>7</NumElts>
 <DBL>
 <Name>TTrigger</Name>
-<Val>0.00000000000000</Val>
+<Val>-30.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Direction</Name>
@@ -144,7 +144,7 @@
 <Choice>Heater Test</Choice>
 <Choice>Actuation Test</Choice>
 <Choice>Diode Test</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <DBL>
 <Name>Pre-Log (s)</Name>
@@ -219,7 +219,7 @@ Current</Name>
 <NumElts>2</NumElts>
 <DBL>
 <Name>Heater Nominal Voltage (V)</Name>
-<Val>0.67000000000000</Val>
+<Val>1.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>Heater Voltage Tolerance (%)</Name>
